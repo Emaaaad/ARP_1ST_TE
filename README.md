@@ -24,7 +24,7 @@ This is the first part of the complete project. Future enhancements will include
 - Konsole terminal
 
 ## How to Run
-The code can be run in the terminal just by typing `bash run.sh` or `make`. The user can command the drone using the keyboard with the following directions:
+The code can be run in the terminal just by typing`make`. The user can command the drone using the keyboard with the following directions:
 
 - `w`: Move up-left
 - `e`: Move up
