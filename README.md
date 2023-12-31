@@ -39,8 +39,7 @@ The code can be run in the terminal just by typing`make`. The user can command t
 Note: Pressing the same key increases the speed of the drone.
 
 ## Components System and Architecture
-
-![System Architecture](https://github.com/Emaaaad/ARP_1ST_TE/blob/main/path/to/image.png)
+![System Architecture](https://github.com/Emaaaad/ARP_1ST_TE/blob/main/ARP1%20(1).png)
 
 ### Master Process
 The `master.c` file acts as the main controller, creating and managing child processes for the drone, server, keyboard, and watchdog. It uses basic fork mechanisms to spawn these processes and tracks their IDs. Through simple inter-process communication using pipes, the master process initiates and terminates child processes.
